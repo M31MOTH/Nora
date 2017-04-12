@@ -1,9 +1,11 @@
 <?php
 	session_start();
 	require 'helpers.php';
+
 	if(!isset($_SESSION['user_id'])) {
 	redirect('index.html');
 	}
+	
 	$msg = file_get_contents('php://input');
 	$flag = "flag{7w1773r_15_my_w15d0m}";
 	$commands = array(	array("command"=> "greetings", "msg"=>"Tells the bot 'Hi'"), 
@@ -11,6 +13,8 @@
 						array("command" =>"readflag", "msg" => "Asks the bot for the flag"), 
 						array("command" =>"help", "msg" => "Prints out a list of commands"));
 	switch(strtolower($msg)) {
+		case "man":
+		case "manual":
 		case "help": 
 			echo json_encode($commands);
 			break;
