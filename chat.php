@@ -37,6 +37,7 @@
 		case "help": 
 			echo json_encode($commands);
 			break;
+		case "hi":
 		case "hello":
 			echo json_encode("Hey ".$user."! How can I help you today?");
 			break;
