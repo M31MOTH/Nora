@@ -73,6 +73,7 @@
 
         <div class="starter-template">
             <h4>Welcome to TayTay!</h4>
+            <img src="logo.jpg" />
             <div id="msgs" class="well col-sm-offset-4 col-sm-4" style="height:400px;max-height:400px; overflow-y:auto;margin-bottom:10px;">
 
             </div>

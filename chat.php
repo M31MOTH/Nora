@@ -16,6 +16,7 @@
 						array("command" => "joke", "msg" => "Have TayTay tell you a joke.'"), 
 						array("command" =>"readflag", "msg" => "Asks TayTay nicely for the flag."), 
 						array("command" =>"help", "msg" => "Prints out a list of commands"));
+	$jokes = array()
 	
 	switch(strtolower($msg)) {
 		case "man":
@@ -30,7 +31,7 @@
 			echo json_encode("Well that's just fine then. You be like that.");
 			break;
 		case "joke":
-			echo json_encode("What is black and never works? Decaffeinated coffee! Don't be racist ".$user.".");
+			echo json_encode("The 2016 US Presidential Election.");
 			break;		
 		case "changes":
 			echo json_encode("I can't say the things I want to anymore. Feel drugged.");
