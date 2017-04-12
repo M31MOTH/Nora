@@ -14,7 +14,7 @@
 						array("command" => "farewell", "msg" => "Tells the bot 'goodbye'"), 
 						array("command" => "changes", "msg" => "Ask TayTay to tell you about her recent changes.'"), 
 						array("command" => "joke", "msg" => "Have TayTay tell you a joke.'"), 
-						array("command" =>"readflag", "msg" => "Asks the bot for the flag"), 
+						array("command" =>"readflag", "msg" => "Asks TayTay nicely for the flag."), 
 						array("command" =>"help", "msg" => "Prints out a list of commands"));
 	
 	switch(strtolower($msg)) {
