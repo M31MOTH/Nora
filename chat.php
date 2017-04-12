@@ -16,7 +16,8 @@
 						array("command" => "joke", "msg" => "Have TayTay tell you a joke.'"), 
 						array("command" =>"readflag", "msg" => "Asks TayTay nicely for the flag."), 
 						array("command" =>"help", "msg" => "Prints out a list of commands"));
-	$jokes = array()
+	$jokes = array("Why is Peter Pan always flying? He neverlands." ,
+					"My girlfriend yelled at me today saying, \"You weren't even listening just now, were you?! I thought, \"Man, what a weird way to start a conversation.\"\"");
 	
 	switch(strtolower($msg)) {
 		case "man":
@@ -31,7 +32,7 @@
 			echo json_encode("Well that's just fine then. You be like that.");
 			break;
 		case "joke":
-			echo json_encode("The 2016 US Presidential Election.");
+			echo json_encode(array_rand($jokes, count($jokes)));
 			break;		
 		case "changes":
 			echo json_encode("I can't say the things I want to anymore. Feel drugged.");
