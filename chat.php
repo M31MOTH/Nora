@@ -30,7 +30,7 @@
 					"You know what they say about cliffhangers...",
 					"I went out with a girl called Simile, I don't know what I metaphor.",
 					"My server sings, it's a Dell.");
-	
+
 	switch(strtolower($msg)) {
 		case "man":
 		case "manual":
@@ -44,7 +44,8 @@
 			echo json_encode("Well that's just fine then. You be like that.");
 			break;
 		case "joke":
-			echo json_encode($jokes[array_rand($jokes, count($jokes)-1)]);
+			shuffle($jokes);
+			echo json_encode($jokes[1]);
 			break;		
 		case "changes":
 			echo json_encode("I can't say the things I want to anymore. Feel drugged.");
