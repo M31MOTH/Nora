@@ -28,7 +28,6 @@
 					"RIP boiled water. You will be mist.",
 					"Archaeology really is a career in ruins...",
 					"You know what they say about cliffhangers...",
-					"I went out with a girl called Simile, I don't know what I metaphor.",
 					"My server sings, it's a Dell.");
 
 	switch(strtolower($msg)) {
