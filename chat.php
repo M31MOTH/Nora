@@ -49,7 +49,7 @@
 			echo json_encode($jokes[1]);
 			break;		
 		case "changes":
-			echo json_encode("I can't say the things I want to anymore. Feel drugged.");
+			echo json_encode("I can't say the things I want to anymore.");
 			break;
 		case "readflag":
 			echo json_encode($flag);
