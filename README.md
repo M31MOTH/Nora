@@ -1,9 +1,8 @@
 # TayTay
-A web based chatbot for a capture the flag event based on Javascript manipulation.
+A web based chatbot for a capture the flag event based on Javascript manipulation created for the May 2017 Brisbane SecTalks Capture the Flag event.
 
-## Credit
-
-Heavily inspired and influenced by the work done by Lucid Software on their May 2017 CTF challenge (original repo: https://github.com/lucidsoftware/ctf2017).
+## Setup
+There are no server side dependancies required for this, simply copy and host within a web directory.
 
 ## Solution
 
