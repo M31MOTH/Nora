@@ -6,7 +6,7 @@ There are no server side dependancies required for this, simply copy and host wi
 
 ## Solution
 
-1. Navigate to the chatter website at http://server-ip/chatter/ and you will be greeted with a prompt to enter your name.
+1. Navigate to the chatter website and you will be greeted with a prompt to enter your name.
 2. Type 'help' to view the instructions available within the bot.
 3. We are lead to believe that sending the message `readFlag` should give us the flag. Attempting to do so through the text-box, you notice that the message the bot interpretted from you was 'justkidding'.
 4. Looking at the HTTP request and Javascript, you will notice that Javascript manipulation is preventing you from sending `readflag` message to the back-end.
