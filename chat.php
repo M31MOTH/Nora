@@ -16,7 +16,7 @@
 						array("command" => "joke", "msg" => "Have TayTay tell you a joke."), 
 						array("command" =>"readflag", "msg" => "Ask TayTay nicely for the flag."), 
 						array("command" =>"help", "msg" => "Prints out a list of commands"));
-	$jokes = array("Why is Peter Pan always flying? He neverlands." ,
+	$jokes = array(	"Why is Peter Pan always flying? He neverlands." ,
 					"My girlfriend yelled at me today saying, \"You weren't even listening just now, were you?! I thought, \"Man, what a weird way to start a conversation.\"", 
 					"I used to have a job collecting leaves. I was raking it in.",
 					"What's the leading cause of dry skin? Towels.",
