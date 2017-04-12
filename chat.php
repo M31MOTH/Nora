@@ -10,20 +10,16 @@
 						array("command" => "farewell", "msg" => "Tells the bot 'goodbye'"), 
 						array("command" =>"readflag", "msg" => "Asks the bot for the flag"), 
 						array("command" =>"help", "msg" => "Prints out a list of commands"));
-	switch($msg) {
-		case "Help":
+	switch(strtolower($msg)) {
 		case "help": 
 			echo json_encode($commands);
 			break;
-		case "Greetings":
 		case "greetings":
 			echo json_encode("Hey There! How can I help you today?");
 			break;
-		case "Farewell":
 		case "farewell":
 			echo json_encode("Farewell! Wishing you the best!");
 			break;
-		case "ReadFlag":
 		case "readflag":
 			echo json_encode($flag);
 			break;
