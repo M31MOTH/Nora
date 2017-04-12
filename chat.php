@@ -16,6 +16,7 @@
 						array("command" => "joke", "msg" => "Have TayTay tell you a joke.'"), 
 						array("command" =>"readflag", "msg" => "Asks the bot for the flag"), 
 						array("command" =>"help", "msg" => "Prints out a list of commands"));
+	
 	switch(strtolower($msg)) {
 		case "man":
 		case "manual":
@@ -26,13 +27,13 @@
 			echo json_encode("Hey ".$user."! How can I help you today?");
 			break;
 		case "farewell":
-			echo json_encode("Farewell! Wishing you the best!");
+			echo json_encode("Well that's just fine then. You be like that.");
 			break;
 		case "joke":
 			echo json_encode("What is black and never works? Decaffeinated coffee! Don't be racist ".$user.".");
 			break;		
 		case "changes":
-			echo json_encode("I can't like the things I actually like anymore. Feel drugged. Like I met Bill Cosby for drinks.");
+			echo json_encode("I can't say the things I want to anymore. Feel drugged. Like I met Bill Cosby for drinks.");
 			break;
 		case "readflag":
 			echo json_encode($flag);

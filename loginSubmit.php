@@ -7,5 +7,5 @@
 	}
 
 	$_SESSION['user_id'] = $_POST['username'];
-	redirect('chatter.php');
+	redirect('taytay.php');
 ?>
