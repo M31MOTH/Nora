@@ -17,7 +17,19 @@
 						array("command" =>"readflag", "msg" => "Ask TayTay nicely for the flag."), 
 						array("command" =>"help", "msg" => "Prints out a list of commands"));
 	$jokes = array("Why is Peter Pan always flying? He neverlands." ,
-					"My girlfriend yelled at me today saying, \"You weren't even listening just now, were you?! I thought, \"Man, what a weird way to start a conversation.\"\"");
+					"My girlfriend yelled at me today saying, \"You weren't even listening just now, were you?! I thought, \"Man, what a weird way to start a conversation.\"", 
+					"I used to have a job collecting leaves. I was raking it in.",
+					"What's the leading cause of dry skin? Towels.",
+					"I tell you what often gets overlooked - garden fences.",
+					"I wear a stethoscope so that in a medical emergency I can teach people a valuable lesson about assumptions.",
+					"Toasters were the first form of pop-up notifications.",
+					"I love sniffing my F1 key... don't worry though, I'm trying to get help.",
+					"I just ate a frozen apple. Hardcore.",
+					"RIP boiled water. You will be mist.",
+					"Archaeology really is a career in ruins...",
+					"You know what they say about cliffhangers...",
+					"I went out with a girl called Simile, I don't know what I metaphor.",
+					"My server sings, it's a Dell.");
 	
 	switch(strtolower($msg)) {
 		case "man":
@@ -32,7 +44,7 @@
 			echo json_encode("Well that's just fine then. You be like that.");
 			break;
 		case "joke":
-			echo json_encode(array_rand($jokes, count($jokes)-1));
+			echo json_encode($jokes[array_rand($jokes, count($jokes)-1)]);
 			break;		
 		case "changes":
 			echo json_encode("I can't say the things I want to anymore. Feel drugged.");
