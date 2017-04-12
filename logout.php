@@ -1,10 +1,10 @@
 <?php
-session_start();
-require 'helpers.php';
-// remove all session variables
-session_unset(); 
+    session_start();
+    require 'helpers.php';
+    // remove all session variables
+    session_unset(); 
 
-// destroy the session 
-session_destroy(); 
-redirect('index.html');
+    // destroy the session 
+    session_destroy(); 
+    redirect('index.html');
 ?>

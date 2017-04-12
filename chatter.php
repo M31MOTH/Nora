@@ -54,15 +54,7 @@ if(!isset($_SESSION['user_id'])) {
           <ul class="nav navbar-nav navbar-right">
             <li>
               <a class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Hi <?php
-                $link = getDBConn();
-                $userId = $_SESSION['user_id'];
-                $results=mysql_query("SELECT `name` FROM users where `id`=$userId");
-                $row = mysql_fetch_array($results);
-                echo $row[0];
-                mysql_free_result($results);
-                mysql_close($link);
-              ?><span class="caret"></span>
+                Hi <?php echo $_SESSION['user_id']; ?><span class="caret"></span>
               </a>
               <ul class="dropdown-menu">
                 <li><a href="logout.php">Logout</a></li>
