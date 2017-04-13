@@ -10,11 +10,11 @@
 
 	$msg = file_get_contents('php://input');
 	$flag = "flag{7w1773r_15_my_w15d0m}";
-	$commands = array(	array("command"=> "hello", "msg"=>"Say 'Hi' to TayTay"), 
+	$commands = array(	array("command"=> "hello", "msg"=>"Say 'Hi' to Nora"), 
 						array("command" => "goodbye", "msg" => "End the session."), 
-						array("command" => "changes", "msg" => "Ask TayTay to tell you about her recent changes."), 
-						array("command" => "joke", "msg" => "Have TayTay tell you a joke."), 
-						array("command" =>"readflag", "msg" => "Ask TayTay nicely for the flag."), 
+						array("command" => "changes", "msg" => "Ask Nora to tell you about her recent changes."), 
+						array("command" => "joke", "msg" => "Have Nora tell you a joke."), 
+						array("command" =>"readflag", "msg" => "Ask Nora nicely for the flag."), 
 						array("command" =>"help", "msg" => "Prints out a list of commands"));
 	$jokes = array(	"Why is Peter Pan always flying? He neverlands." ,
 					"My girlfriend yelled at me today saying, \"You weren't even listening just now, were you?! I thought, \"Man, what a weird way to start a conversation.\"", 

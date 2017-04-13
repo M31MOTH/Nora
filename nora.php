@@ -28,7 +28,7 @@
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>TayTay</title>
+    <title>Nora</title>
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="./css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <!-- Optional theme -->
@@ -51,7 +51,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-                <a class="navbar-brand" href="#">TayTay</a>
+                <a class="navbar-brand" href="#">Nora</a>
             </div>
             <div id="navbar" class="collapse navbar-collapse">
                 <ul class="nav navbar-nav navbar-right">
@@ -72,7 +72,7 @@
     <div class="container-fluid">
 
         <div class="starter-template">
-            <h4>Welcome to TayTay!</h4>
+            <h4>Welcome to Nora!</h4>
             <img src="logo.jpg" />
             <div id="msgs" class="well col-sm-offset-4 col-sm-4" style="height:400px;max-height:400px; overflow-y:auto;margin-bottom:10px;">
 
