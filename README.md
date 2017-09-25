@@ -1,6 +1,8 @@
 # Nora
 A web based chatbot for a capture the flag event based on Javascript manipulation created for the May 2017 Brisbane SecTalks Capture the Flag event.
 
+[![Twitter](https://img.shields.io/badge/twitter-@codingo__-blue.svg)](https://twitter.com/codingo_)
+
 ## Setup
 There are no server side dependancies required for this, simply copy and host within a web directory.
 
